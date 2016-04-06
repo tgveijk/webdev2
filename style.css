@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+body {
+	margin-top:20px;
+	background-color: #fffcf7;
+}
+/* HOME */
+#home {
+	width: 95%;
+	height: 600px;
+	margin: auto;
+}
+
+#home img {
+	width: 94%;
+	height: 600px;
+	position: absolute;
+	z-index: 1;
+}
+
+#home p {
+	font-family: 'Poiret One', cursive;
+	font-weight: 100;
+	font-size: 45px;
+	color: white;
+	margin: 0px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	letter-spacing: 3px;
+}
+	/* LOGO */
+	#logo {
+		display: block;
+		padding: 150px 0px 0px 0px;
+	}
+
+	#logo img {
+		display: block;
+		width: 400px;
+		height: auto;
+		margin: auto;
+		position: relative;
+		z-index: 2;
+	}
+
+	/* NAV */
+	#nav {
+		display: block;
+		margin: 80px 0px 0px 0px;
+		padding: 60px 0px 0px 0px;
+		z-index: 2;
+		position: fixed;
+		width: 94%;
+	}
+	#nav ul {
+		display: block;
+		height: 42px;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		background-color: white;
+		opacity: 0.9;
+	}
+	#nav ul li{
+		display: inline-block;
+		width: 15%;
+		padding: 10px 5px;
+	}
+
+	#nav ul li a {
+		font-weight: 200;
+		font-family: 'Poiret One', cursive;
+		text-decoration: none;
+		letter-spacing: 1px;
+		color: black;
+	}
+
+	#nav ul li a:hover {
+		color: #9d8990;
+	}
+
+/* ABOUT */
+#about {
+	display: block;
+	width: 95%;
+	height: 600px;
+	margin: auto;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 60px;
+	font-weight: 100;
+	margin: 50px 0px 20px 0px;
+	color: #7e8a96;
+	clear: both;
+}
+
+#about .header img {
+	display: block;
+	width: 60%;
+	margin: auto;
+	padding: 0px 0px 20px 0px;
+}
+
+	/* CONTENT */
+	.content {
+		width: 95%;
+		height: 460px;
+		margin: auto;
+		background-color: #dcefed;
+	}
+
+	.about_content {
+		width: 515px;
+		height: 400px;
+		background-color: #cadad9;
+		float: left;
+		margin: 27px;
+
+	}
+	.about_content ul li i {
+		margin: 0px 10px 0px 0px;
+	}
+
+	.about_content img {
+		display: block;
+		margin: 20px auto;
+		border-radius: 50%;
+		width: 250px;
+		height: 250px;
+	}
+
+	.about_content ul {
+		display: block;
+		text-align: left;
+		padding: 0px;
+		margin:30px 0px 0px 175px;
+		font-weight: 100;
+		font-family: helvetica;
+		color: white;
+	}
+	.about_content ul li a {
+		text-decoration: none;
+		color: white;
+	}
+	.about_content ul li {
+		margin: 10px 0px;
+		list-style-type: none;
+	}
+	.about_content p {
+		margin: 40px;
+		padding: 30px 0px 0px 0px;
+		font-size: 18px;
+		letter-spacing: 1px;
+		font-weight: 100;
+		line-height: 125%;
+		font-family: helvetica;
+		color: white;
+	}
+
+/* PHOTOS */
+.content_p {
+	width: 95%;
+	height: 775px;
+	margin: auto;
+	background-color: #dcefed;
+
+}
+#photos {
+	width: 95%;
+	height: 900px;
+	margin: auto;
+}
+
+#photos .header img {
+	display: block;
+	width: 60%;
+	margin: auto;
+	padding: 0px 0px 20px 0px;
+}
+	/* CONTENT */
+
+	.photos_content {
+		display: block;
+		width: 340px;
+		height: 340px;
+		background-color: #cadad9;
+		float: left;
+		margin: 20px;
+	}
+
+	.photos_content img {
+		position: absolute;
+		width: 340px;
+		height: 340px;
+	}
+	
+	.photos_content p {
+		margin: 80px 40px 40px 40px;
+		padding: 25px 0px 0px 0px;
+		font-size: 16px;
+		letter-spacing: 1px;
+		font-weight: 100;
+		line-height: 125%;
+		font-family: helvetica;
+		color: white;
+	}
+
+	.title {
+		display: none;
+		width: 100%;
+		height: 361px;
+	}
+
+	.title h3 {
+	display: none;
+	color: black;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: 100;
+	}
+	
+	.photos_content:hover .title {
+		margin: 0px;
+		opacity: 0.4;
+		display: block;
+		width: 340px;
+		height: 340px;
+		background-color: white;
+	}
+
+	.photos_content:hover .title h3 {
+		position: absolute;
+		display: block;
+		margin: 300px 10px;
+		width: 100%;
+		height: 60px;
+	}
+
+
+/* DESIGN */
+
+#design .header img {
+	display: block;
+	width: 60%;
+	margin: auto;
+	padding: 0px 0px 20px 0px;
+}
+
+.content h2 {
+	font-size: 35px;
+	font-weight: 100;
+	font-family: 'Poiret One', cursive;
+	color: #8c6978;
+	margin: auto;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+}
+
+.design_content {
+	display: block;
+	width: 360px;
+	height: 360px;
+	background-color: #FF1654;
+	float: left;
+	margin: 19px;
+}
+
+.design_content img {
+	height: 360px;
+	width: 360px;
+	position: absolute;
+}
+
+	
+.design_content:hover .title {
+	display: block;
+	width: 360px;
+	height: 360px;
+}
+
+.design_content:hover .title h3 {
+	position: absolute;
+	display: block;
+	margin: 300px 0px;
+	padding: 20px 0px 10px 15px;
+	width: 345px;
+	height: 30px;
+	background-color: white;
+	opacity: 0.6;
+}
+
+/* MEDIA */
+
+#media .header img {
+	display: block;
+	width: 60%;
+	margin: auto;
+	padding: 0px 0px 20px 0px;
+}
+
+.media_content {
+	width: 500px;
+	height: 281px;
+	background-color: #cadad9;
+	float: left;
+	margin: 50px;
+}
+
+.media_content p {
+	margin: 40px;
+	padding: 30px 0px 0px 0px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: 100;
+	line-height: 125%;
+	font-family: helvetica;
+	color: white;
+}
+
+/* FOOTER */
+
+footer {
+	height: 100px;
+	width: 95%;
+	clear: both;
+	margin: auto;
+	margin: 33px auto;
+    background: #7e8894;  
+    background: -webkit-linear-gradient(left, #7e8894 , #b39c94); 
+    background: -o-linear-gradient(right, #7e8894,  #b39c94); 
+    background: -moz-linear-gradient(right, #7e8894,  #b39c94); 
+    background: linear-gradient(to right, #7e8894 ,  #b39c94); 
+}
+
+footer p {
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+	font-family: 'Poiret One', cursive;
+	color: white;
+}
+
+.shadow {
+	box-shadow: 2px 2px 2px #888888;
+}
+
+.media_content iframe {
+	border: none;
+}
